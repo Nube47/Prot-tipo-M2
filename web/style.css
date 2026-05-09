@@ -1,9 +1,10 @@
-*{box-sizing: border-box; border: 1px solid red; background-color: lightgray;
-    margin: 0; padding: 0;}
+*{box-sizing: border-box; outline: 1px solid red; margin: 0; padding: 0;
+    background-color: lightgray;}
 body{
     display: grid;
     grid-template-areas: "header" "article" "nav" "main" "footer";
-    grid-template-columns: 1fr; grid-template-rows: 12vh 23vh 15vh 30vh 15vh;}
+    grid-template-columns: 1fr; grid-template-rows: 1fr 2fr 2fr 4fr 1fr;
+    height: 100vh;}
 
 .container-header{grid-area: footer;}
 .container-article{grid-area: article;}
