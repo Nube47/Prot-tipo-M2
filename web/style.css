@@ -3,7 +3,7 @@
     background-color: lightgray;}
 =======
 :root {--cinza-claro: #9b9b9b; --cinza-escuro: #666666; --preto: #0d0d0d}
-*{box-sizing: border-box; outline: 0 solid green; margin: 0; padding: 0;
+*{box-sizing: border-box; outline: 0 solid rgb(0, 0, 0); margin: 0; padding: 0;
     background-color: var(--cinza-claro);}
 >>>>>>> bc8e8947dae8b2cdb46558231555d43d31269ec4
 body{
