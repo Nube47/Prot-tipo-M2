@@ -6,8 +6,11 @@ body{
     grid-template-columns: 1fr; grid-template-rows: 1fr 2fr 2fr 4fr 1fr;
     height: 100vh;}
 
-.container-header{grid-area: footer;}
+.container-header{grid-area: header;}
 .container-article{grid-area: article;}
 .container-nav{grid-area: nav;}
 .container-main{grid-area: main;}
-.container-footer{grid-area: header;}
+.container-footer{grid-area: footer;}
+
+.box-header{height: 85%; width: 85%;
+    background-color: aquamarine;}
