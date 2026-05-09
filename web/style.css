@@ -1,5 +1,6 @@
-*{box-sizing: border-box; outline: 1px solid green; margin: 0; padding: 0;
-    background-color: lightgray;}
+:root {--cinza-claro: #9b9b9b; --cinza-escuro: #666666; --preto: #0d0d0d}
+*{box-sizing: border-box; outline: 0 solid green; margin: 0; padding: 0;
+    background-color: var(--cinza-claro);}
 body{
     display: grid;
     grid-template-areas: "header" "article" "nav" "main" "footer";
@@ -14,4 +15,5 @@ body{
 .container-footer{grid-area: footer;}
 
 .box-header{height: 77%; width: 85%;
-    background-color: aquamarine;}
+    border: 1px solid var(--preto); border-radius: 4px;
+    background-color: var(--cinza-escuro);}
