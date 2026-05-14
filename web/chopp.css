@@ -15,6 +15,9 @@ header{
     padding:25px;
     text-align:center;
     border-bottom:2px solid #00ffee;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url("../images/chopp-header1.png"), url("../images/geral-banner2.png");
+    background-size: contain; background-position: center;
 }
 
 header h1{

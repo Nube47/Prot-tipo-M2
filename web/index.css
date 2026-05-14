@@ -14,7 +14,7 @@ header{
     height:100vh;
     background:
             linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
-            url('https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1600&auto=format&fit=crop');
+            url('../images/index-header.png');
     background-size:cover;
     background-position:center;
 
@@ -115,15 +115,15 @@ section{
     flex-wrap:wrap;
 }
 
-.sobre img{
-    width:100%;
-    max-width:500px;
-    border-radius:20px;
+.sobre-img{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+    url("../images/sobre-img1.jpg"), url("../images/sobre-img2.jpg");
+    width: 250px; height: 250px;
+    background-size: cover; background-position: center; max-width:500px;
+    border-radius: 25%;
 }
 
-.sobre-texto{
-    flex:1;
-}
+.sobre-texto{ flex:1; }
 
 .sobre-texto h2{
     color:#00ffee;
